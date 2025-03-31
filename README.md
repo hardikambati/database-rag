@@ -1,7 +1,7 @@
 # Database RAG LLM implementation (Gemini API, Chroma DB and Hugging Face embedding model)
 
 ## Description
-This pipeline generates database queries with existing contextual knowledge of existing database schemas.
+This pipeline generates database queries with contextual knowledge of existing database schemas.
 
 - Store database schema in Chroma DB (vector storage).
 - Consume user queries and extract knowledge from Chroma DB.
